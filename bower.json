@@ -1,0 +1,23 @@
+{
+  "name": "angular-google-auth",
+  "main": "google-auth.js",
+  "version": "0.9.0",
+  "authors": [
+    "Henrique Pinheiro <informatica@mpinformatica.com>"
+  ],
+  "description": "Frontend Google OAuth 2.0 through GAPI",
+  "keywords": [
+    "angular",
+    "google",
+    "oauth"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

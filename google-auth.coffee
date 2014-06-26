@@ -3,8 +3,8 @@ do (angular, window) ->
   angular
   .module 'googleAuth', ['ng']
   .provider 'gAuth', ->
-    client_id =
-    hd =
+    client_id = null
+    hd = null
     @setClientId = (clientId) ->
       client_id = clientId
     @setHD = (HD) ->

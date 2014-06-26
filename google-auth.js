@@ -2,7 +2,9 @@
   'use strict';
   angular.module('googleAuth', ['ng']).provider('gAuth', function() {
     var client_id, hd;
-    client_id = hd = this.setClientId = function(clientId) {
+    client_id = null;
+    hd = null;
+    this.setClientId = function(clientId) {
       return client_id = clientId;
     };
     this.setHD = function(HD) {
